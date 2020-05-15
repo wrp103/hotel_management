@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><customerBookings>
+    <customerBooking id="1001">
+        <bookingID>1001</bookingID>
+        <username>dustin</username>
+    </customerBooking>
+<customerBooking id="1002"><bookingID>1002</bookingID><username>dustin</username></customerBooking><customerBooking id="1003"><bookingID>1003</bookingID><username>steve</username></customerBooking><customerBooking id="1004"><bookingID>1004</bookingID><username>phil</username></customerBooking><customerBooking id="1005"><bookingID>1005</bookingID><username>phil</username></customerBooking><customerBooking id="1006"><bookingID>1006</bookingID><username>simon</username></customerBooking><customerBooking id="1007"><bookingID>1007</bookingID><username>simon</username></customerBooking><customerBooking id="1008"><bookingID>1008</bookingID><username>greg</username></customerBooking></customerBookings>

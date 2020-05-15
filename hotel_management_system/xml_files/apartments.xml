@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<apartments>
+
+	<apartment id = "101">
+		<apartmentname>Wood-side</apartmentname>
+		<price>350</price>
+		<startdate>10/10/20</startdate>
+		<enddate>15/10/20</enddate>
+		<maxguests>4</maxguests>
+		<bedrooms>2</bedrooms>
+		<livingroom>true</livingroom>
+		<bathrooms>2</bathrooms>
+	</apartment>
+	
+	<apartment id = "102">
+		<apartmentname>Summer-side</apartmentname>
+		<price>200</price>
+		<startdate>10/10/20</startdate>
+		<enddate>15/10/20</enddate>
+		<maxguests>2</maxguests>
+		<bedrooms>2</bedrooms>
+		<livingroom>false</livingroom>
+		<bathrooms>2</bathrooms>
+	</apartment>
+
+	<apartment id = "103">
+		<apartmentname>Winter-side</apartmentname>
+		<price>150</price>
+		<startdate>17/10/20</startdate>
+		<enddate>26/10/20</enddate>
+		<maxguests>2</maxguests>
+		<bedrooms>1</bedrooms>
+		<livingroom>false</livingroom>
+		<bathrooms>1</bathrooms>
+	</apartment>
+
+	<apartment id = "104">
+		<apartmentname>Autumn-side</apartmentname>
+		<price>600</price>
+		<startdate>01/10/20</startdate>
+		<enddate>07/10/20</enddate>
+		<maxguests>6</maxguests>
+		<bedrooms>3</bedrooms>
+		<livingroom>true</livingroom>
+		<bathrooms>3</bathrooms>
+	</apartment>
+
+	<apartment id = "105">
+		<apartmentname>Spring-side</apartmentname>
+		<price>200</price>
+		<startdate>01/10/20</startdate>
+		<enddate>07/10/20</enddate>
+		<maxguests>2</maxguests>
+		<bedrooms>2</bedrooms>
+		<livingroom>false</livingroom>
+		<bathrooms>2</bathrooms>
+	</apartment>
+
+	<apartment id = "106">
+		<apartmentname>Orchard-side</apartmentname>
+		<price>225</price>
+		<startdate>07/10/20</startdate>
+		<enddate>14/10/20</enddate>
+		<maxguests>4</maxguests>
+		<bedrooms>2</bedrooms>
+		<livingroom>false</livingroom>
+		<bathrooms>1</bathrooms>
+	</apartment>
+
+	<apartment id = "107">
+		<apartmentname>Rose-side</apartmentname>
+		<price>350</price>
+		<startdate>07/10/20</startdate>
+		<enddate>14/10/20</enddate>
+		<maxguests>4</maxguests>
+		<bedrooms>2</bedrooms>
+		<livingroom>true</livingroom>
+		<bathrooms>2</bathrooms>
+	</apartment>
+
+	<apartment id = "108">
+		<apartmentname>Lavender-side</apartmentname>
+		<price>275</price>
+		<startdate>14/10/20</startdate>
+		<enddate>21/10/20</enddate>
+		<maxguests>5</maxguests>
+		<bedrooms>3</bedrooms>
+		<livingroom>true</livingroom>
+		<bathrooms>1</bathrooms>
+	</apartment>
+
+	<apartment id = "109">
+		<apartmentname>Willow-side</apartmentname>
+		<price>100</price>
+		<startdate>14/10/20</startdate>
+		<enddate>21/10/20</enddate>
+		<maxguests>2</maxguests>
+		<bedrooms>1</bedrooms>
+		<livingroom>false</livingroom>
+		<bathrooms>1</bathrooms>
+	</apartment>
+
+	<apartment id = "110">
+		<apartmentname>Holly-side</apartmentname>
+		<price>125</price>
+		<startdate>21/10/20</startdate>
+		<enddate>28/10/20</enddate>
+		<maxguests>2</maxguests>
+		<bedrooms>1</bedrooms>
+		<livingroom>false</livingroom>
+		<bathrooms>1</bathrooms>
+	</apartment>
+
+</apartments>
