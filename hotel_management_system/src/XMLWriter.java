@@ -24,8 +24,8 @@ public abstract class XMLWriter {
 
     //*************************Class instance variables**************************//
 
-    DocumentBuilderFactory factory; // builder factory
-    DocumentBuilder builder; // document builder
+    private DocumentBuilderFactory factory; // builder factory
+    private DocumentBuilder builder; // document builder
     private Document xmlFile; // the document of data to write to xml
     private TransformerFactory transformerFactory; // transformer factory
     private Transformer transformer; // transformer
