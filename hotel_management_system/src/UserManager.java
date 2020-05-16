@@ -23,4 +23,4 @@ public class UserManager extends User {
         setAdmin(true); // set admin access to super class instance variable
     }
 
-} // close Manager class
+} // close UserManager class
