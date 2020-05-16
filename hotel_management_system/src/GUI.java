@@ -31,8 +31,8 @@ public abstract class GUI {
     // user variables (for access to certain areas of GUI)
     private String currentUser;
     private boolean adminAccess = false;
-    JTextField usernameField;
-    JPasswordField passwordField;
+    private JTextField usernameField;
+    private JPasswordField passwordField;
 
     // GUI user area variables
     private GUIUser managerGUI;

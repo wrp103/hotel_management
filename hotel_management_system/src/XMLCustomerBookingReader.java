@@ -34,8 +34,8 @@ public class XMLCustomerBookingReader extends XMLReader {
     private String[] bookingInfo;
 
     // all confirm booking data
-    ArrayList<String> allConfirmFiles;
-    ArrayList<XMLCustomerBookingReader> allConfirmObjects;
+    private ArrayList<String> allConfirmFiles;
+    private ArrayList<XMLCustomerBookingReader> allConfirmObjects;
     private String confirmationID;
     private String clientname;
     private String guests;
