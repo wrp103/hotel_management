@@ -249,7 +249,7 @@ public class XMLCustomerBookingReader extends XMLReader {
 
         // set column headers for table
         String columnHeaders[] = {"Confirmation ID","Name", "Guests","Start Date", "End Date",
-                "Apartment", "Bedrooms", "Bathrooms", "Living Room", "Catering", "Total"};
+                "Apartment", "Bedrooms", "Living Room", "Bathrooms", "Catering", "Total"};
 
         // create new JTable
         bookingsTable = new JTable(tableData, columnHeaders);

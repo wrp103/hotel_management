@@ -22,4 +22,4 @@ public class UserCustomer extends User {
         setPassword(password); // set password to super class instance variable
     }
 
-} // close Customer class
+} // close UserCustomer class
