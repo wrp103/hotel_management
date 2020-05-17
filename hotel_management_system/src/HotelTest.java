@@ -8,10 +8,13 @@
 //*                                                                             *//
 //*******************************************************************************//
 
+import javax.swing.*;
+
 public abstract class HotelTest {
 
     public static void main(String[] args) {
        new GUILogin(); // open hotel management systems GUI
+
     }
 
 }

@@ -8,6 +8,8 @@
 //*                                                                             *//
 //*******************************************************************************//
 
+import javax.swing.*;
+
 public class UserManager extends User {
 
     //****************************Class constructors*****************************//
@@ -23,4 +25,19 @@ public class UserManager extends User {
         setAdmin(true); // set admin access to super class instance variable
     }
 
+    //***************************************************************************//
+
+    //********************************Class methods******************************//
+
+    /** method userCreated()
+     * displays message that account has been created
+     */
+    @Override
+    public void userCreated() {
+        JOptionPane.showMessageDialog(null,
+                "Manager account has been created"); // display message
+    }
+
 } // close UserManager class
+
+
