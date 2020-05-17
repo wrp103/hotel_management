@@ -79,7 +79,7 @@ public abstract class GUI {
     /** method buildHeaderGUI()
      * creates and builds header layout
      */
-    private void buildHeaderGUI() {
+    public void buildHeaderGUI() {
 
         headerPanel = new JPanel(); // create new panel
         headerPanel.add(new JLabel("Hotel Management App")); // add title to header

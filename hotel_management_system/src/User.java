@@ -8,6 +8,8 @@
 //*                                                                             *//
 //*******************************************************************************//
 
+import javax.swing.*;
+
 public abstract class User {
 
     //*************************Class instance variables**************************//
@@ -15,6 +17,32 @@ public abstract class User {
     private String username; // users username
     private String password; // users password
     private boolean admin = false; // users access level
+
+    //***************************************************************************//
+
+    //****************************Class constructors*****************************//
+
+    /** constructor
+     * creates a new instance of a user
+     */
+    public User() {
+        // display account created message
+      //  userCreated(); message disabled to speed up testing process
+    }
+
+    //***************************************************************************//
+
+    //********************************Class methods******************************//
+
+    /** method userCreated()
+     * displays message that account has been created
+     */
+    public void userCreated() {
+        JOptionPane.showMessageDialog(null,
+                "User account has been created"); // display message
+    }
+
+    //***************************************************************************//
 
     //*******************************Class setters*******************************//
 
@@ -45,3 +73,5 @@ public abstract class User {
     }
 
 } // close User class
+
+

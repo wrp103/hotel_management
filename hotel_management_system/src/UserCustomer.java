@@ -8,6 +8,8 @@
 //*                                                                             *//
 //*******************************************************************************//
 
+import javax.swing.*;
+
 public class UserCustomer extends User {
 
     //****************************Class constructors*****************************//
@@ -22,4 +24,20 @@ public class UserCustomer extends User {
         setPassword(password); // set password to super class instance variable
     }
 
+    //***************************************************************************//
+
+    //********************************Class methods******************************//
+
+    /** method userCreated()
+     * displays message that account has been created
+     */
+    @Override
+    public void userCreated() {
+        JOptionPane.showMessageDialog(null,
+                "Customer account has been created"); // display message
+    }
+
 } // close UserCustomer class
+
+
+
